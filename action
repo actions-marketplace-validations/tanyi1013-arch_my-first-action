@@ -1,0 +1,16 @@
+name: '打招呼任务'
+description: '输入一个名字，输出一句问候语'
+
+inputs:
+  your_name:
+    description: '你的名字'
+    required: true
+    default: '世界'
+
+outputs:
+  greeting:
+    description: '生成的问候语'
+
+runs:
+  using: 'node20'
+  main: 'index.js'
