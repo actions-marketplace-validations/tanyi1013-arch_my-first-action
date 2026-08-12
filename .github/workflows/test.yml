@@ -7,6 +7,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: tanyi1013-arch/my-first-action@v1.0.0
+      - uses: tanyi1013-arch/my-first-action@main
         with:
           your_name: '小明'
