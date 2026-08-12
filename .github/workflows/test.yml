@@ -1,0 +1,12 @@
+name: 测试我的原子任务
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tanyi1013-arch/my-first-action@v1.0.0
+        with:
+          your_name: '小明'
